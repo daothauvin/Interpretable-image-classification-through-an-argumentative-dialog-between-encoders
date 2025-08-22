@@ -1,0 +1,8 @@
+similarity-encoder: "DINO" 
+attribute-encoder: "CLIP" 
+train_sim_features: "features_Flowers_DINO.pt" 
+thresholds: [0,0] 
+dataset: "flowers" 
+distance-metrics: 'cosine'
+result: 'results_Flowers_DINO.pt'
+attribute-file: 'flowers_sota.txt'

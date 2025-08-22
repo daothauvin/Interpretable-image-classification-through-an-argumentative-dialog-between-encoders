@@ -1,0 +1,7 @@
+similarity-encoder: "DINO" 
+attribute-encoder: "CLIPFT" 
+features: "features_CUB_DINO.pt"
+thresholds: [9,9] 
+dataset: "CUB" 
+result: "results_CUB_DINO.pt"
+distance-metrics: 'cosine'
